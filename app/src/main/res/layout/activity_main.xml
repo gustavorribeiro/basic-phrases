@@ -26,15 +26,17 @@
             android:id="@+id/button0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button"
+            android:text="DO YOU\nSPEAK ENGLISH?"
+            android:tag="doyouspeakenglish"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_columnWeight="1" />
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button"
+            android:text="GOOD EVENING"
+            android:tag="goodevening"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"/>
@@ -42,49 +44,55 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button"
+            android:text="HELLO"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_columnWeight="1"
+            android:tag="hello"/>
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button"
+            android:text="HOW ARE YOU?"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_columnWeight="1"
+            android:tag="howareyou"/>
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button"
+            android:text="I LIVE IN..."
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_columnWeight="1"
+            android:tag="ilivein"/>
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button"
+            android:text="MY NAME IS..."
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_columnWeight="1"
+            android:tag="mynameis"/>
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button"
+            android:text="PLEASE"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_columnWeight="1"
+            android:tag="please"/>
         <Button
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button"
+            android:text="WELCOME"
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
-            app:layout_columnWeight="1"/>
+            app:layout_columnWeight="1"
+            android:tag="welcome"/>
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
